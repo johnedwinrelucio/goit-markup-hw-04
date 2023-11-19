@@ -2,106 +2,114 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoIT Homework03</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Web Studio</title>
   </head>
   <body>
-    <!--This is header-->
+    <!-- header -->
     <header class="header">
-      <div class="container header-container">
-        <!-- Navigation Bar -->
-        <nav class="header-navigation">
-          <a class="header-logo links" href="./index.html">
-            <span class="web-logo">WEB</span
-            ><span class="studio-logo">STUDIO </span>
-          </a>
+      <div class="main-header-container container">
+        <nav class="navigation">
+          <a class="iris-logo" href="index.html"
+            >WEB<span class="header-text-logo-studio">STUDIO</span></a
+          >
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-item-link nav-active" href="./index.html"
+                >Studio</a
+              >
+            </li>
 
-          <ul class="header-list lists">
-            <li class="header-item">
-              <a class="header-link links current" href="#">Studio</a>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
-            <li class="header-item">
-              <a class="header-link links" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link links" href="#">Contacts</a>
+
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
+        <address class="address">
+          <ul class="header-address">
+            <li class="header-address-item">
+              <a class="header-address-link" href="mail:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
 
-        <ul class="header-address lists">
-          <li>
-            <a
-              class="header-address-link links"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="header-address-link links" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
+            <li class="header-address-item">
+              <a class="header-address-link" href="tel:+11(000)111-11-11"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
 
-    <!--This is main-->
+    <!-- main -->
     <main>
-      <!--This is Section 1-->
-      <section class="hero-section">
-        <div class="container hero-container">
-          <h1 class="hero-title">
-            Effective Solutions <br />
-            for Your Business
-          </h1>
-          <button class="hero-button button" type="button">
-            Order service
-          </button>
+      <!-- Hero Section -->
+      <section class="hero-section section">
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
+          <button class="btn" type="button">Order Service</button>
         </div>
       </section>
 
-      <!--This is Section 2-->
-      <section class="section features-section">
-        <div class="container features-container">
-          <ul class="features-list lists">
-            <li class="features-item">
-              <h3 class="features-title titles">Strategy</h3>
-              <p class="features-bottom-text bottom-text">
+      <!-- section 1 -->
+      <section class="adv-section">
+        <div class="container section-container">
+          <ul class="adv-list">
+            <li class="adv-item">
+              <svg class="adv-icon icon-strat">
+                <use href="./icon.svg#icon-strat"></use>
+              </svg>
+              <h3 class="adv-title">Strategy</h3>
+              <p class="adv-description">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
 
-            <li class="features-item">
-              <h3 class="features-title titles">Punctuality</h3>
-              <p class="features-bottom-text bottom-text">
+            <li class="adv-item">
+              <svg class="adv-icon icon-punc">
+                <use href="./icon.svg#icon-punc"></use>
+              </svg>
+              <h3 class="adv-title">Punctuality</h3>
+              <p class="adv-description">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
 
-            <li class="features-item">
-              <h3 class="features-title titles">Diligence</h3>
-              <p class="features-bottom-text bottom-text">
-                Research and confirm brands that represent the strongest digital
+            <li class="adv-item">
+              <svg class="adv-icon icon-dili">
+                <use href="./icon.svg#icon-diligence"></use>
+              </svg>
+              <h3 class="adv-title">Diligence</h3>
+              <p class="adv-description">
+                Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
 
-            <li class="features-item">
-              <h3 class="features-title titles">Technologies</h3>
-              <p class="features-bottom-text bottom-text">
+            <li class="adv-item">
+              <svg class="adv-icon icon-tech">
+                <use href="./icon.svg#icon-tech"></use>
+              </svg>
+              <h3 class="adv-title">Technologies</h3>
+              <p class="adv-description">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -110,115 +118,307 @@
         </div>
       </section>
 
-      <!--This is Section 3-->
-      <section class="section section-no-top-padding">
-        <div class="container what-we-do-container">
-          <h2 class="what-we-do-title section-title">What Are We Doing</h2>
-          <ul class="what-we-do-list lists">
-            <li class="what-we-do-item">
-              <img
-                src="images/what-we-do-1.jpg"
-                alt="computer monitor"
-                width="360"
-                height="300"
-              />
+      <!-- section-2 -->
+      <section class="what-are-we-doing-section section">
+        <div class="container section-container">
+          <h1 class="what-are-we-doing-title title">What Are We Doing</h1>
+          <ul class="what-are-we-doing-list">
+            <li class="what-are-we-doing-item">
+              <img src="./image/img-1.jpg" alt="img-1" width="300" />
             </li>
 
-            <li class="what-we-do-item">
-              <img
-                src="images/what-we-do-2.jpg"
-                alt="phone"
-                width="360"
-                height="300"
-              />
+            <li class="what-are-we-doing-item">
+              <img src="./image/img-2.jpg" alt="img-2" width="300" />
             </li>
 
-            <li class="what-we-do-item">
-              <img
-                src="images/what-we-do-3.jpg"
-                alt="phone & laptop"
-                width="360"
-                height="300"
-              />
+            <li class="what-are-we-doing-item">
+              <img src="./image/img-3.jpg" alt="img-3" width="300" />
             </li>
           </ul>
         </div>
       </section>
 
-      <!--This is Section 4-->
-      <section class="section section-grey">
-        <div class="container team-container">
-          <h2 class="team-title section-title">Our Team</h2>
-          <ul class="team-list lists">
-            <li class="team-item">
-              <img
-                src="images/our-team-1.jpg"
-                alt="Mark Guerero"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-name titles">Mark Guerero</h3>
-                <p class="team-bottom-text bottom-text">Product Designer</p>
-              </div>
+      <!-- section-3 -->
+      <section class="our-team-section section">
+        <h1 class="our-team-title title">Our Team</h1>
+        <ul class="our-team-list">
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-1.jpg"
+              alt="mark-guerrero-profile-picture"
+              width="264"
+              height="260"
+            />
+            <div class="our-team-item-container">
+              <h2 class="our-team-name">Mark Guerrero</h2>
+              <p class="our-team-position">Product Designer</p>
+
+              <ul class="social-media-list">
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-instagram">
+                      <use href="./icon.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-twitter">
+                      <use href="./icon.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-facebook">
+                      <use href="./icon.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-linkedin">
+                      <use href="./icon.svg#"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-2.jpg"
+              alt="tom-ford-profile-picture"
+              width="264"
+              height="260"
+            />
+            <div class="our-team-item-container">
+              <h2 class="our-team-name">Tom Ford</h2>
+              <p class="our-team-position">Frontend Developer</p>
+
+              <ul class="social-media-list">
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-instagram">
+                      <use href="./icon.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-twitter">
+                      <use href="./icon.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-facebook">
+                      <use href="./icon.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-linkedin">
+                      <use href="./icon.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-3.jpg"
+              alt="camila-garcia-profile-picture"
+              width="264"
+              height="260"
+            />
+            <div class="our-team-item-container">
+              <h2 class="our-team-name">Camila Garcia</h2>
+              <p class="our-team-position">Marketing</p>
+
+              <ul class="social-media-list">
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-instagram">
+                      <use href="./icon.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-twitter">
+                      <use href="./icon.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-facebook">
+                      <use href="./icon.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-linkedin">
+                      <use href="./icon.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="our-team-item">
+            <img
+              src="./image/img-team-4.jpg"
+              alt="daniel-wilson-profile-picture"
+              width="264"
+              height="260"
+            />
+            <div class="our-team-item-container">
+              <h2 class="our-team-name">Daniel Wilson</h2>
+              <p class="our-team-position">UI Designer</p>
+
+              <ul class="social-media-list">
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-instagram">
+                      <use href="./icon.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-twitter">
+                      <use href="./icon.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-facebook">
+                      <use href="./icon.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+
+                <li class="social-media-items">
+                  <a class="social-media-link" href="#">
+                    <svg class="social-media-icon icon-linkedin">
+                      <use href="./icon.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- section 4 -->
+      <section class="customer-section">
+        <div class="customer-container container">
+          <h2 class="customer-title title">Customers</h2>
+          <ul class="customer-list">
+            <li class="customer-list-item">
+              <a class="customer-list-item-link" href="">
+                <svg class="customer-icon-svg">
+                  <use xlink:href="./icon.svg#customer1"></use>
+                </svg>
+              </a>
             </li>
 
-            <li class="team-item">
-              <img
-                src="images/our-team-2.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-name titles">Tom Ford</h3>
-                <p class="team-bottom-text bottom-text">Frontend Developer</p>
-              </div>
+            <li class="customer-list-item">
+              <a class="customer-list-item-link" href="">
+                <svg class="customer-icon-svg">
+                  <use
+                    class="customer-svg"
+                    xlink:href="./icon.svg#customer2"
+                  ></use>
+                </svg>
+              </a>
             </li>
 
-            <li class="team-item">
-              <img
-                src="images/our-team-3.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-name titles">Camila Garcia</h3>
-                <p class="team-bottom-text bottom-text">Marketing</p>
-              </div>
+            <li class="customer-list-item">
+              <a class="customer-list-item-link" href="">
+                <svg class="customer-icon-svg">
+                  <use href="./icon.svg#customer3"></use>
+                </svg>
+              </a>
             </li>
 
-            <li class="team-item">
-              <img
-                src="images/our-team-4.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-name titles">Daniel Wilson</h3>
-                <p class="team-bottom-text bottom-text">UI Designer</p>
-              </div>
+            <li class="customer-list-item">
+              <a class="customer-list-item-link" href="">
+                <svg class="customer-icon-svg">
+                  <use href="./icon.svg#customer4"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customer-list-item">
+              <a class="customer-list-item-link" href="">
+                <svg class="customer-icon-svg">
+                  <use href="./icon.svg#customer5"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customer-list-item">
+              <a class="customer-list-item-link" href="">
+                <svg class="customer-icon-svg">
+                  <use href="./icon.svg#customer6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <!--This is footer-->
-    <footer class="footer-section">
-      <div class="container footer-container">
-        <a class="header-logo links" href="./index.html">
-          <span class="web-logo">WEB</span
-          ><span class="studio-logo studio-footer">STUDIO </span>
-        </a>
-        <div class="footer-text">
-          <p class="footer-bottom-text bottom-text">
-            Increase the flow of customers and<br />
-            sales for your business with digital<br />
-            marketing & growth solutions.
+    <footer class="footer">
+      <div class="footer-container container">
+        <div>
+          <a class="iris-logo" href="#header"
+            >WEB<span class="footer-text-logo-studio">STUDIO</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and <br />sales for your business
+            with digital<br />marketing & growth solutions.
           </p>
+        </div>
+        <div>
+          <h2 class="social-media-title">Social media</h2>
+          <ul class="footer-social-media-list">
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="#">
+                <svg class="footer-social-media-icon icon-instagram">
+                  <use href="./icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="#">
+                <svg class="footer-social-media-icon icon-twitter">
+                  <use href="./icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="#">
+                <svg class="footer-social-media-icon icon-facebook">
+                  <use href="./icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="#">
+                <svg class="footer-social-media-icon icon-linkedin">
+                  <use href="./icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
